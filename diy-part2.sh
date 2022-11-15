@@ -9,7 +9,6 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
-
 sed -i '/DTS_DIR:=$(LINUX_DIR)/a\BUILD_DATE_PREFIX := $(shell date +'%F')' ./include/image.mk
 sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(BUILD_DATE_PREFIX)-/g' ./include/image.mk
 sed -i "s/DISTRIB_DESCRIPTION='OpenWrt '/DISTRIB_DESCRIPTION='OpenWrt-Firker '/g" ./package/lean/default-settings/files/zzz-default-settings
@@ -28,9 +27,7 @@ rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/mosdns
 rm -rf ./feeds/luci/luci-theme-argon
-
 rm -rf ./feeds/packages/net/aria2
-
 rm -rf ./package/openwrt-passwall/v2ray-geodata
 rm -rf ./package/ssr/v2ray-geodata
 rm -rf .package/sirpdboy-package/smartdns
