@@ -19,7 +19,9 @@ sed -i "s/hostname='OpenWrt'/hostname='OpenWrt-SE'/g" ./package/base-files/files
 curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yaml > ./package/openwrt-mos/luci-app-mosdns/root/etc/mosdns/cus_config.yaml
 # wget https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yaml -O ./package/openwrt-mos/luci-app-mosdns/root/etc/mosdns/cus_config.yaml
 # Modify default IP
- sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
+###
+sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
+###
 # rm -rf ./feeds/luci/applications/luci-app-qbittorrent
 rm -rf ./feeds/luci/applications/luci-app-serverchan
 # rm -rf ./package/diy-ziyong/adguardhome
@@ -27,7 +29,9 @@ rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/mosdns
 rm -rf ./feeds/luci/luci-theme-argon
+##
 rm -rf ./feeds/packages/net/aria2
+##
 rm -rf ./package/openwrt-passwall/v2ray-geodata
 rm -rf ./package/ssr/v2ray-geodata
 rm -rf .package/sirpdboy-package/smartdns
