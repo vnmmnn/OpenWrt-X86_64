@@ -18,8 +18,6 @@
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 
-git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
-
 git clone https://github.com/fw876/helloworld.git package/ssr
 git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
@@ -29,7 +27,7 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-ser
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
-# git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 sed -i 's/luci-lib-ipkg/luci-base/g' package/openwrt-bypass/luci-app-bypass/Makefile
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
