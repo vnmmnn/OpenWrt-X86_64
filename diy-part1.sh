@@ -25,7 +25,7 @@ git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 ###
-git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+git clone https://github.com/sirpdboy/sirpdboy-package package/sirpdboy-package
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 ###
 git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
