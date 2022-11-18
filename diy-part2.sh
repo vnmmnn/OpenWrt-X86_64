@@ -31,7 +31,7 @@ rm -rf ./feeds/packages/net/mosdns
 rm -rf ./feeds/luci/luci-theme-argon
 ##
 rm -rf ./feeds/packages/net/aria2
-rm -rf .package/diy-ziyong/alist-18.06/alis
+# rm -rf .package/diy-ziyong/alist-18.06/alis
 ##
 rm -rf ./package/openwrt-passwall/v2ray-geodata
 rm -rf ./package/ssr/v2ray-geodata
