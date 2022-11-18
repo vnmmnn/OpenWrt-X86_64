@@ -38,10 +38,10 @@ rm -rf ./package/lean/adbyby
 rm -rf ./package/openwrt-passwall/v2ray-geodata
 rm -rf ./package/ssr/v2ray-geodata
 ##
-# rm -rf ./package/sirpdboy-package/smartdns
-# rm -rf ./package/sirpdboy-package/adguardhome
-# rm -rf ./package/sirpdboy-package/luci-app-dockerman
-# rm -rf ./package/sirpdboy-package/luci-app-autotimeset
+rm -rf ./package/sirpdboy-package/smartdns
+rm -rf ./package/sirpdboy-package/adguardhome
+rm -rf ./package/sirpdboy-package/luci-app-dockerman
+rm -rf ./package/sirpdboy-package/luci-app-autotimeset
 # rm -rf ./feeds/packages/net/https-dns-proxy
 # svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
 # rm -rf feeds/packages/lang/golang
