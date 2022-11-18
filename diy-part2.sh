@@ -33,7 +33,7 @@ rm -rf ./feeds/luci/luci-theme-argon
 rm -rf ./feeds/packages/net/aria2
 rm -rf ./package/diy-ziyong/alist-18.06/alis
 rm -rf ./package/diy-ziyong/luci-app-adguardhome
-rm -rf ./package/lean/adbyby
+rm -rf ./package/lean/luci-app-adbyby-plus
 ##
 rm -rf ./package/openwrt-passwall/v2ray-geodata
 rm -rf ./package/ssr/v2ray-geodata
