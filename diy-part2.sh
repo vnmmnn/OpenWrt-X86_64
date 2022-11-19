@@ -26,7 +26,7 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 rm -rf ./feeds/luci/applications/luci-app-serverchan
 # rm -rf ./package/diy-ziyong/adguardhome
 rm -rf ./feeds/packages/net/adguardhome
-rm -rf ./feeds/packages/net/smartdns
+# rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/mosdns
 rm -rf ./feeds/luci/luci-theme-argon
 ##
