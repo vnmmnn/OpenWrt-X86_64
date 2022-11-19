@@ -41,7 +41,7 @@ rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 rm -rf ./package/openwrt-passwall/v2ray-geodata
 rm -rf ./package/ssr/v2ray-geodata
 ##
-rm -rf ./package/sirpdboy-package/smartdns
+# rm -rf ./package/sirpdboy-package/smartdns
 # rm -rf ./package/sirpdboy-package/adguardhome
 rm -rf ./package/sirpdboy-package/luci-app-dockerman
 rm -rf ./package/sirpdboy-package/luci-app-autotimeset
