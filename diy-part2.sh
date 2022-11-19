@@ -36,6 +36,7 @@ rm -rf ./feeds/packages/net/aria2
 # rm -rf ./package/diy-ziyong/luci-app-adguardhome
 # rm -rf ./package/diy-ziyong/adguardhome
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
+rm -rf ./package/sirpdboy-package/luci-lib-ipkg
 ##
 rm -rf ./package/openwrt-passwall/v2ray-geodata
 rm -rf ./package/ssr/v2ray-geodata
