@@ -28,7 +28,7 @@ git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 # git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-# svn co https://github.com/kiddin9/openwrt-packages/trunk/aria2 package/aria2
+svn co https://github.com/kiddin9/openwrt-packages/trunk/aria2 package/aria2
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-speedlimit package/sirpdboy-package/luci-app-control-speedlimit
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-weburl package/sirpdboy-package/luci-app-control-weburl
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-cpulimit package/sirpdboy-package/luci-app-cpulimit
