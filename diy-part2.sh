@@ -29,8 +29,8 @@ rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/packages/net/mosdns
 rm -rf ./feeds/luci/luci-theme-argon
 ##
-rm -rf ./feeds/luci/applications/luci-app-aria2
-rm -rf ./feeds/packages/net/aria2
+# rm -rf ./feeds/luci/applications/luci-app-aria2
+# rm -rf ./feeds/packages/net/aria2
 # rm -rf ./package/diy-ziyong/alist-18.06/luci-app-alist
 # rm -rf ./package/diy-ziyong/alist-18.06/alist
 # rm -rf ./package/diy-ziyong/luci-app-adguardhome
