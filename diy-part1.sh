@@ -36,6 +36,9 @@ svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-cpulimit pack
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/cpulimit package/sirpdboy-package/cpulimit
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome package/sirpdboy-package/adguardhome
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome package/sirpdboy-package/luci-app-adguardhome
+svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn package/diy-ziyong/luci-app-wrtbwmon-zhcn
+svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wrtbwmon
+svn co https://github.com/firker/diy-ziyong/trunk/theme package/diy-ziyong/theme
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/openwrt-bypass/luci-app-bypass/Makefile
