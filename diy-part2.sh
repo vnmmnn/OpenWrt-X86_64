@@ -38,8 +38,6 @@ rm -rf ./feeds/luci/luci-theme-argon
 # rm -rf ./package/diy-ziyong/adguardhome
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 rm -rf ./package/sirpdboy-package/luci-lib-ipkg
-# rm -rf ./package/sirpdboy-package/luci-app-aria2
-# rm -rf ./package/sirpdboy-package/aria2
 # rm -rf ./package/sirpdboy-package/luci-app-autotimeset
 ##
 rm -rf ./package/openwrt-passwall/v2ray-geodata
