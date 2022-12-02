@@ -16,6 +16,8 @@
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 git clone https://github.com/fw876/helloworld.git package/ssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
 # git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
@@ -45,7 +47,7 @@ svn co https://github.com/sirpdboy/sirpdboy-package/trunk/aria2 package/sirpdboy
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
-git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
+# git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
 # git clone https://github.com/dwj0/luci-app-sms-tool.git package/luci-app-sms-tool
 # git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
