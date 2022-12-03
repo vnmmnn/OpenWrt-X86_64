@@ -37,8 +37,8 @@ svn co https://github.com/sirpdboy/sirpdboy-package/trunk/cpulimit package/sirpd
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome package/sirpdboy-package/adguardhome
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome package/sirpdboy-package/luci-app-adguardhome
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn package/diy-ziyong/luci-app-wrtbwmon-zhcn
-svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wrtbwmon
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner package/diy-ziyong/luci-app-onliner
+svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wrtbwmon
 svn co https://github.com/firker/diy-ziyong/trunk/theme package/diy-ziyong/theme
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-aria2 package/sirpdboy-package/luci-app-aria2
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/aria2 package/sirpdboy-package/aria2
