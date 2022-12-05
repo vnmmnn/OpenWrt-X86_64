@@ -34,6 +34,8 @@ svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-speed
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-weburl package/sirpdboy-package/luci-app-control-weburl
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-cpulimit package/sirpdboy-package/luci-app-cpulimit
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/cpulimit package/sirpdboy-package/cpulimit
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-smartdns package/sirpdboy-package/luci-app-smartdns
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/smartdns package/sirpdboy-package/smartdns
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome package/sirpdboy-package/adguardhome
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome package/sirpdboy-package/luci-app-adguardhome
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn package/diy-ziyong/luci-app-wrtbwmon-zhcn
