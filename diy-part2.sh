@@ -42,7 +42,7 @@ rm -rf ./package/sirpdboy-package/luci-lib-ipkg
 # rm -rf ./package/sirpdboy-package/luci-app-autotimeset
 ##
 # rm -rf ./package/openwrt-passwall/v2ray-geodata
-# rm -rf ./package/ssr/v2ray-geodata
+rm -rf ./package/ssr/v2ray-geodata
 ##
 # rm -rf .package/sirpdboy-package/smartdns
 # rm -rf .package/sirpdboy-package/adguardhome
