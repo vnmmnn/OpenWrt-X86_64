@@ -27,24 +27,13 @@ git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 ###
-# git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
+git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-speedlimit package/sirpdboy-package/luci-app-control-speedlimit
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-weburl package/sirpdboy-package/luci-app-control-weburl
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-cpulimit package/sirpdboy-package/luci-app-cpulimit
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/cpulimit package/sirpdboy-package/cpulimit
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-smartdns package/sirpdboy-package/luci-app-smartdns
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/smartdns package/sirpdboy-package/smartdns
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome package/sirpdboy-package/adguardhome
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome package/sirpdboy-package/luci-app-adguardhome
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn package/diy-ziyong/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner package/diy-ziyong/luci-app-onliner
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wrtbwmon
 svn co https://github.com/firker/diy-ziyong/trunk/theme package/diy-ziyong/theme
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-aria2 package/sirpdboy-package/luci-app-aria2
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/aria2 package/sirpdboy-package/aria2
-svn co https://github.com/QiuSimons/openwrt-mos/trunk/v2ray-geodata package/v2ray-geodata
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/openwrt-bypass/luci-app-bypass/Makefile
