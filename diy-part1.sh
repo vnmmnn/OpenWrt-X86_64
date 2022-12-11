@@ -34,7 +34,6 @@ svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zh package/d
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner package/diy-ziyong/luci-app-onliner
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wrtbwmon
 svn co https://github.com/firker/diy-ziyong/trunk/theme package/diy-ziyong/theme
-# svn co https://github.com/QiuSimons/openwrt-mos/trunk/v2ray-geodata package/openwrt-mos/v2ray-geodata
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/openwrt-bypass/luci-app-bypass/Makefile
