@@ -21,6 +21,7 @@ sed -i "s/hostname='OpenWrt'/hostname='OpenWrt-SE'/g" ./package/base-files/files
 # Modify default IP
 ###
 sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
+sed -i 's/bootstrap/argon-18.06/g' ./feeds/luci/collections/luci/Makefile
 ###
 # rm -rf ./feeds/luci/applications/luci-app-qbittorrent
 rm -rf ./feeds/luci/applications/luci-app-serverchan
