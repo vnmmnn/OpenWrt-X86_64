@@ -29,7 +29,7 @@ rm -rf ./feeds/luci/applications/luci-app-serverchan
 rm -rf ./feeds/luci/applications/luci-app-aria2
 rm -rf ./feeds/luci/applications/luci-app-smartdns
 rm -rf ./feeds/luci/applications/luci-app-upnp
-rm -rf ./feeds/packages/net/miniupnpd
+# rm -rf ./feeds/packages/net/miniupnpd
 rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 # rm -rf ./feeds/packages/net/mosdns
