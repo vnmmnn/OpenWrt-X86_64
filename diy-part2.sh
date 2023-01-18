@@ -26,14 +26,14 @@ sed -i 's/bootstrap/opentopd/g' ./feeds/luci/collections/luci/Makefile
 ###
 # rm -rf ./feeds/luci/applications/luci-app-qbittorrent
 rm -rf ./feeds/luci/applications/luci-app-serverchan
-rm -rf ./feeds/luci/applications/luci-app-aria2
+# rm -rf ./feeds/luci/applications/luci-app-aria2
 rm -rf ./feeds/luci/applications/luci-app-smartdns
 rm -rf ./feeds/luci/applications/luci-app-upnp
 # rm -rf ./feeds/packages/net/miniupnpd
 rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 # rm -rf ./feeds/packages/net/mosdns
-rm -rf ./feeds/packages/net/aria2
+# rm -rf ./feeds/packages/net/aria2
 # rm -rf ./feeds/packages/net/ariang
 rm -rf ./feeds/luci/luci-theme-argon
 ##
@@ -44,6 +44,8 @@ rm -rf ./feeds/luci/luci-theme-argon
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 rm -rf ./package/sirpdboy-package/luci-lib-ipkg
 rm -rf ./package/sirpdboy-package/wrtbwmon
+rm -rf ./package/sirpdboy-package/luci-app-aria2
+rm -rf ./package/sirpdboy-package/luci-app-dockerman
 # rm -rf ./package/sirpdboy-package/luci-app-autotimeset
 ##
 rm -rf ./package/openwrt-passwall/v2ray-geodata
@@ -51,7 +53,6 @@ rm -rf ./package/ssr/v2ray-geodata
 ##
 # rm -rf .package/sirpdboy-package/smartdns
 # rm -rf .package/sirpdboy-package/adguardhome
-# rm -rf ./package/sirpdboy-package/luci-app-dockerman
 # rm -rf ./feeds/packages/net/https-dns-proxy
 # svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
 # rm -rf feeds/packages/lang/golang
