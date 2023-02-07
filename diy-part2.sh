@@ -52,6 +52,7 @@ rm -rf ./package/sirpdboy-package/luci-app-adguardhome
 # rm -rf ./package/sirpdboy-package/luci-app-autotimeset
 ##
 rm -rf ./package/openwrt-passwall/v2ray-geodata
+rm -rf ./package/openwrt-passwall/xray-plugin
 rm -rf ./package/ssr/v2ray-geodata
 ##
 # rm -rf .package/sirpdboy-package/smartdns
