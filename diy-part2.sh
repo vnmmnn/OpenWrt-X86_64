@@ -28,6 +28,8 @@ sed -i 's/bootstrap/opentopd/g' ./feeds/luci/collections/luci/Makefile
 rm -rf ./feeds/luci/applications/luci-app-serverchan
 rm -rf ./feeds/luci/applications/luci-app-smartdns
 rm -rf ./feeds/luci/applications/luci-app-upnp
+rm -rf ./feeds/luci/applications/luci-app-aria2
+rm -rf ./feeds/luci/applications/aria2
 # rm -rf ./feeds/packages/net/miniupnpd
 rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
@@ -41,8 +43,8 @@ rm -rf ./feeds/luci/luci-theme-argon
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 rm -rf ./package/sirpdboy-package/luci-lib-ipkg
 rm -rf ./package/sirpdboy-package/wrtbwmon
-rm -rf ./package/sirpdboy-package/luci-app-aria2
-rm -rf ./package/sirpdboy-package/aria2
+# rm -rf ./package/sirpdboy-package/luci-app-aria2
+# rm -rf ./package/sirpdboy-package/aria2
 rm -rf ./package/sirpdboy-package/adguardhome
 rm -rf ./package/sirpdboy-package/luci-app-adguardhome
 # rm -rf ./package/sirpdboy-package/luci-app-dockerman
