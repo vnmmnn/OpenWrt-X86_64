@@ -46,8 +46,8 @@ rm -rf ./package/sirpdboy-package/luci-lib-ipkg
 rm -rf ./package/sirpdboy-package/wrtbwmon
 # rm -rf ./package/sirpdboy-package/luci-app-aria2
 # rm -rf ./package/sirpdboy-package/aria2
-rm -rf ./package/sirpdboy-package/adguardhome
-rm -rf ./package/sirpdboy-package/luci-app-adguardhome
+# rm -rf ./package/sirpdboy-package/adguardhome
+# rm -rf ./package/sirpdboy-package/luci-app-adguardhome
 # rm -rf ./package/sirpdboy-package/luci-app-dockerman
 # rm -rf ./package/sirpdboy-package/luci-app-autotimeset
 ##
