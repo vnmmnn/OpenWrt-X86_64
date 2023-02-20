@@ -20,7 +20,7 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
 # git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
+# git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon-18.06
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
@@ -37,7 +37,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zh package/diy-ziyong/luci-app-wrtbwmon-zh
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner package/diy-ziyong/luci-app-onliner
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wrtbwmon
-svn co https://github.com/firker/diy-ziyong/trunk/theme package/diy-ziyong/theme
+# svn co https://github.com/firker/diy-ziyong/trunk/theme package/diy-ziyong/theme
 # svn co https://github.com/firker/diy-ziyong/trunk/adguardhome package/diy-ziyong/adguardhome
 # svn co https://github.com/firker/diy-ziyong/trunk/luci-app-adguardhome package/diy-ziyong/luci-app-adguardhome
 find ./ | grep Makefile | grep xray-plugin | xargs rm -f
