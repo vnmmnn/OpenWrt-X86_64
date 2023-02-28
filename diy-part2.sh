@@ -36,8 +36,8 @@ rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/luci/applications/luci-app-mosdns
 rm -rf ./feeds/packages/net/mosdns
-rm -rf ./feeds/luci/luci-theme-argon
-rm -rf ./feeds/luci/luci-theme-argon-mod
+rm -rf ./feeds/luci/themes/luci-theme-argon
+rm -rf ./feeds/luci/themes/luci-theme-argon-mod
 ##
 # rm -rf ./package/diy-ziyong/alist-18.06/luci-app-alist
 # rm -rf ./package/diy-ziyong/alist-18.06/alist
