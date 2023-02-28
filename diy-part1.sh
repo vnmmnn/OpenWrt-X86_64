@@ -37,7 +37,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zh package/diy-ziyong/luci-app-wrtbwmon-zh
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner package/diy-ziyong/luci-app-onliner
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wrtbwmon
-svn co https://github.com/firker/diy-ziyong/trunk/theme package/diy-ziyong/theme
+# svn co https://github.com/firker/diy-ziyong/trunk/theme package/diy-ziyong/theme
 # svn co https://github.com/firker/diy-ziyong/trunk/adguardhome package/diy-ziyong/adguardhome
 # svn co https://github.com/firker/diy-ziyong/trunk/luci-app-adguardhome package/diy-ziyong/luci-app-adguardhome
 find ./ | grep Makefile | grep xray-plugin | xargs rm -f
