@@ -23,7 +23,7 @@ sed -i 's/KERNEL_PATCHVER:=6.1/KERNEL_PATCHVER:=5.4/g' ./target/linux/x86/Makefi
 # sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 # git clone https://github.com/fw876/helloworld.git package/ssr
 git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
+# git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
 # git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 # git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
@@ -65,4 +65,4 @@ svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wr
 # git clone https://github.com/linkease/istore-ui.git package/istore-ui
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+# svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
