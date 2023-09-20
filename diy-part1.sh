@@ -32,6 +32,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lu
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
+sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
 ###
 git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
