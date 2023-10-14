@@ -28,6 +28,12 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-bypass/Makefile
 git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
+
+find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
+find ./ | grep Makefile | grep mosdns | xargs rm -f
+git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
+git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+
 # git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 # git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
@@ -57,7 +63,6 @@ svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wr
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/openwrt-bypass/luci-app-bypass/Makefile
 # git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-# git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 # git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 # git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
