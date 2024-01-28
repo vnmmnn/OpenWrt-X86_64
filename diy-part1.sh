@@ -69,9 +69,9 @@ git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
-merge_package master https://github.com/firker/diy-ziyong package/diy-ziyong luci-app-wrtbwmon-zh wrtbwmon
+merge_package https://github.com/firker/diy-ziyong package/diy-ziyong luci-app-wrtbwmon-zh
 # merge_package https://github.com/firker/diy-ziyong /diy-ziyong/luci-app-onliner
-# merge_package https://github.com/firker/diy-ziyong package/diy-ziyong/wrtbwmon
+merge_package https://github.com/firker/diy-ziyong package/diy-ziyong wrtbwmon
 
 # svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zh package/diy-ziyong/luci-app-wrtbwmon-zh
 # svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner package/diy-ziyong/luci-app-onliner
