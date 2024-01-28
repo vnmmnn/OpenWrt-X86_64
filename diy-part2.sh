@@ -55,13 +55,13 @@ rm -rf ./package/sirpdboy-package/wrtbwmon
 # rm -rf ./package/sirpdboy-package/luci-app-adguardhome
 # rm -rf ./package/sirpdboy-package/luci-app-dockerman
 # rm -rf ./package/sirpdboy-package/luci-app-autotimeset
-##
-# rm -rf ./package/openwrt-passwall/v2ray-geodata
-rm -rf ./package/openwrt-passwall/xray-plugin
-rm -rf ./package/ssr/v2ray-geodata
-##
 # rm -rf .package/sirpdboy-package/smartdns
 # rm -rf .package/sirpdboy-package/adguardhome
+##
+# rm -rf ./package/openwrt-passwall/v2ray-geodata
+# rm -rf ./package/openwrt-passwall/xray-plugin
+# rm -rf ./package/ssr/v2ray-geodata
+##
 # rm -rf ./feeds/packages/net/https-dns-proxy
 # svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
 # rm -rf feeds/packages/lang/golang
