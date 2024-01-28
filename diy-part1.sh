@@ -73,14 +73,7 @@ merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-wrtbwmon-
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
 merge_package https://github.com/firker/diy-ziyong diy-ziyong/wrtbwmon
 
-# svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zh package/diy-ziyong/luci-app-wrtbwmon-zh
-# svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner package/diy-ziyong/luci-app-onliner
-# svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wrtbwmon
-# svn co https://github.com/firker/diy-ziyong/trunk/theme package/diy-ziyong/theme
-# svn co https://github.com/firker/diy-ziyong/trunk/adguardhome package/diy-ziyong/adguardhome
-# svn co https://github.com/firker/diy-ziyong/trunk/luci-app-adguardhome package/diy-ziyong/luci-app-adguardhome
-# find ./ | grep Makefile | grep xray-plugin | xargs rm -f
-# svn co https://github.com/sbwml/openwrt_helloworld/trunk/xray-plugin package/xray-plugin
+
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/openwrt-bypass/luci-app-bypass/Makefile
@@ -94,5 +87,5 @@ merge_package https://github.com/firker/diy-ziyong diy-ziyong/wrtbwmon
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/istore/luci/luci-app-store/Makefile
 # git clone https://github.com/linkease/istore-ui.git package/istore-ui
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
-# svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
-# svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+
+
