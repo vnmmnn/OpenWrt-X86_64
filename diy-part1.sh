@@ -17,6 +17,21 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
+function merge_package(){
+    repo=`echo $1 | rev | cut -d'/' -f 1 | rev`
+    pkg=`echo $2 | rev | cut -d'/' -f 1 | rev`
+    # find package/ -follow -name $pkg -not -path "package/custom/*" | xargs -rt rm -rf
+    git clone --depth=1 --single-branch $1
+    mv $2 package/custom/
+    rm -rf $repo
+}
+function drop_package(){
+    find package/ -follow -name $1 -not -path "package/custom/*" | xargs -rt rm -rf
+}
+
+rm -rf package/custom; mkdir package/custom
+
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
@@ -53,6 +68,11 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-ope
 git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+
+merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-wrtbwmon-zh
+# merge_package https://github.com/firker/diy-ziyong /diy-ziyong/luci-app-onliner
+merge_package https://github.com/firker/diy-ziyong package/diy-ziyong/wrtbwmon
+
 # svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zh package/diy-ziyong/luci-app-wrtbwmon-zh
 # svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner package/diy-ziyong/luci-app-onliner
 # svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon package/diy-ziyong/wrtbwmon
