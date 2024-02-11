@@ -40,9 +40,9 @@ rm -rf package/custom; mkdir package/custom
 git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
 # git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
-sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-bypass/Makefile
+# sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-bypass/Makefile
 git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
-# sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
+sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
 
 # find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 # find ./ | grep Makefile | grep mosdns | xargs rm -f
