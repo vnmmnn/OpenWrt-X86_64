@@ -63,7 +63,7 @@ git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-part
 git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
 git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
-git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
+# git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
 git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
