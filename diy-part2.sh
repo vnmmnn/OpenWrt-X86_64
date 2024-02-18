@@ -43,7 +43,6 @@ rm -rf ./feeds/luci/themes/luci-theme-argon
 rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 ##
 
-rm -rf feeds/packages/net/curl
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 # rm -rf ./package/sirpdboy-package/luci-lib-ipkg
 rm -rf ./package/sirpdboy-package/wrtbwmon
