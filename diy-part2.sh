@@ -38,7 +38,7 @@ rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
 rm -rf ./feeds/luci/applications/luci-app-mosdns
 rm -rf ./feeds/packages/net/mosdns
-rm -rf ./feeds/packages/lang/golang
+# rm -rf ./feeds/packages/lang/golang
 rm -rf ./feeds/luci/themes/luci-theme-argon
 # rm -rf ./feeds/luci/themes/luci-theme-argon-mod
 rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
