@@ -43,12 +43,12 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-bypass/Makefile\
 
 # git clone https://github.com/sbwml/feeds_packages_net_curl package/curl
-# git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
+git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 # git clone -b 22.x https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
-# sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall-packages package/passwall-packages
-merge_package https://github.com/fw876/helloworld /helloworld/luci-app-ssr-plus
+sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
+# git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+# git clone https://github.com/xiaorouji/openwrt-passwall-packages package/passwall-packages
+# merge_package https://github.com/fw876/helloworld /helloworld/luci-app-ssr-plus
 
 # find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 # find ./ | grep Makefile | grep mosdns | xargs rm -f
