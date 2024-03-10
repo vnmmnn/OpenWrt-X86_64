@@ -45,6 +45,7 @@ rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 # rm -rf ./package/sirpdboy-package/luci-lib-ipkg
+# rm -rf ./package/sirpdboy-package/luci-app-dockerman
 rm -rf ./package/sirpdboy-package/wrtbwmon
 ##
 # rm -rf ./package/openwrt-passwall/v2ray-geodata
