@@ -44,7 +44,6 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
 
 # git clone https://github.com/sbwml/feeds_packages_net_curl package/curl
 git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
-rm -rf ./feeds/packages/lang/golang
 git clone -b 22.x https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
 sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
 # git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
