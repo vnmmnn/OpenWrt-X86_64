@@ -74,7 +74,7 @@ git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
 git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 
 merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-wrtbwmon-zh
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
