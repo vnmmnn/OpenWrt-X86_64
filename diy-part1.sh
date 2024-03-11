@@ -42,7 +42,7 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-bypass/Makefile\
 
-# git clone https://github.com/sbwml/feeds_packages_net_curl package/curl
+rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 rm -rf ./feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 22.x packages/lang/golang
