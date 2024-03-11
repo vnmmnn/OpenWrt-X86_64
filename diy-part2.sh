@@ -40,7 +40,7 @@ rm -rf ./feeds/luci/applications/luci-app-mosdns
 rm -rf ./feeds/packages/net/mosdns
 rm -rf ./feeds/luci/themes/luci-theme-argon
 # rm -rf ./feeds/luci/themes/luci-theme-argon-mod
-rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
+# rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 ##
 
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
