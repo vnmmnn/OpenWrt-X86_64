@@ -48,9 +48,9 @@ rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 # rm -rf ./package/sirpdboy-package/luci-app-dockerman
 rm -rf ./package/sirpdboy-package/wrtbwmon
 ##
-# rm -rf ./package/openwrt-passwall/v2ray-geodata
-rm -rf ./package/helloworld/v2ray-geodata
-# rm -rf ./package/openwrt-passwall/xray-plugin
+rm -rf ./package/passwall-packages/v2ray-geodata
+# rm -rf ./package/helloworld/v2ray-geodata
+# rm -rf ./package/passwall-packages/xray-plugin
 # rm -rf ./package/ssr/v2ray-geodata
 ##
 # rm -rf ./feeds/packages/net/https-dns-proxy
