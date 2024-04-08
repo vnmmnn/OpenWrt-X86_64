@@ -65,7 +65,8 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-ser
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 ###
 git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
-git clone https://github.com/pymumu/smartdns.git package/smartdns
+git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+git clone https://github.com/pymumu/luci-app-smartdns package/smartdns
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
