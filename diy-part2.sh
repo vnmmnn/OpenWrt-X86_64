@@ -40,7 +40,6 @@ rm -rf ./feeds/luci/applications/luci-app-mosdns
 rm -rf ./feeds/packages/net/mosdns
 rm -rf ./feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
-rm -rf ./feeds/package/network/services/dnsmasq
 # rm -rf ./feeds/packages/net/curl
 # git clone https://github.com/sbwml/feeds_packages_net_curl.git feeds/packages/net/curl
 rm -rf ./feeds/luci/themes/luci-theme-argon
