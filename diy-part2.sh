@@ -46,6 +46,13 @@ rm -rf ./feeds/package/network/services/dnsmasq
 rm -rf ./feeds/luci/themes/luci-theme-argon
 # rm -rf ./feeds/luci/themes/luci-theme-argon-mod
 rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
+
+## immortalwrt
+rm -rf ./feeds/luci/applications/luci-app-passwall
+rm -rf ./feeds/luci/applications/luci-app-ssr-plus
+rm -rf ./feeds/luci/applications/luci-app-openclash
+rm -rf ./feeds/luci/applications/luci-app-smartdns
+
 ##
 
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
