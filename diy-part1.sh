@@ -58,7 +58,7 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
+# git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 ###
 git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
@@ -67,7 +67,7 @@ git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app
 git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
-git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
+# git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
 git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
