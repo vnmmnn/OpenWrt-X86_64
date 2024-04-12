@@ -22,7 +22,6 @@ sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(BUILD_DATE_PREFIX)-/g' ./include/image.mk
 ###
 sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
 ##主题修改
-sed -i 's/argon/kucat/g' ./feeds/luci/collections/luci/Makefile
 # sed -i 's/shadowsocksr/passwall/g' package/luci-theme-neobird/luasrc/view/themes/neobird/header.htm
 # sed -i 's/bypass/passwall/g' package/luci-theme-kucat/luasrc/view/themes/kucat/header.htm
 # sed -i 's/netwizard/system/g' package/luci-theme-kucat/luasrc/view/themes/kucat/header.htm
