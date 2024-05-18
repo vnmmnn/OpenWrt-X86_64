@@ -56,15 +56,14 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 # git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
-# git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 ###
-git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
+# git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
-git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
+# git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
 git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
