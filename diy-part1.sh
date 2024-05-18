@@ -39,15 +39,16 @@ rm -rf package/custom; mkdir package/custom
 # git clone https://github.com/fw876/helloworld.git package/ssr
 # git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
 # git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
-# svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-bypass/Makefile\
 
 
-git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
-sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
-# git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-# git clone https://github.com/xiaorouji/openwrt-passwall-packages package/passwall-packages
+# git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
+# sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall-packages package/passwall-packages
+git clone https://github.com/fw876/helloworld.git package/ssr
 # merge_package https://github.com/fw876/helloworld /helloworld/luci-app-ssr-plus
+
 
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 find ./ | grep Makefile | grep mosdns | xargs rm -f
@@ -73,10 +74,11 @@ git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 
-merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-wrtbwmon-zh
+# merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-wrtbwmon-zh
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
-merge_package https://github.com/firker/diy-ziyong diy-ziyong/wrtbwmon
-
+# merge_package https://github.com/firker/diy-ziyong diy-ziyong/wrtbwmon
+merge_package master https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
+merge_package master https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
 
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
