@@ -77,8 +77,8 @@ git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-wrtbwmon-zh
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/wrtbwmon
-merge_package master https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
-merge_package master https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
 
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
