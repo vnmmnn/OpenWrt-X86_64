@@ -44,7 +44,8 @@ git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/l
 rm -rf ./feeds/luci/themes/luci-theme-argon
 # rm -rf ./feeds/luci/themes/luci-theme-argon-mod
 rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
-
+rm -rf ./feeds/luci/applications/luci-app-passwall
+rm -rf ./feeds/luci/applications/luci-app-ssr-plus
 
 
 ##
