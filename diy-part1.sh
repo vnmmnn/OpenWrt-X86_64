@@ -75,9 +75,9 @@ git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 
-# merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-wrtbwmon-zh
+merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-wrtbwmon-zh
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
-# merge_package https://github.com/firker/diy-ziyong diy-ziyong/wrtbwmon
+merge_package https://github.com/firker/diy-ziyong diy-ziyong/wrtbwmon
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-adguardhome
