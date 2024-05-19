@@ -56,6 +56,7 @@ rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 # rm -rf ./package/sirpdboy-package/wrtbwmon
 # rm -rf ./package/sirpdboy-package/luci-app-smartdns
 # rm -rf ./package/sirpdboy-package/smartdns
+rm -rf ./package/sirpdboy-package/luci-app-lucky
 rm -rf ./package/sirpdboy-package/luci-app-control-timewol
 ##
 rm -rf ./package/passwall-packages/v2ray-geodata
