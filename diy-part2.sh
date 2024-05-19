@@ -51,7 +51,7 @@ rm -rf ./feeds/luci/applications/luci-app-ssr-plus
 ##
 
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
-# rm -rf ./package/sirpdboy-package/luci-lib-ipkg
+rm -rf ./package/sirpdboy-package/luci-lib-ipkg
 # rm -rf ./package/sirpdboy-package/luci-app-dockerman
 # rm -rf ./package/sirpdboy-package/wrtbwmon
 # rm -rf ./package/sirpdboy-package/luci-app-smartdns
