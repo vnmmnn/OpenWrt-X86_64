@@ -78,7 +78,8 @@ git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/wrtbwmon
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
-
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-adguardhome
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/adguardhome
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/openwrt-bypass/luci-app-bypass/Makefile
@@ -90,6 +91,6 @@ git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
 # git clone https://github.com/linkease/istore.git package/istore
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/istore/luci/luci-app-store/Makefile
 # git clone https://github.com/linkease/istore-ui.git package/istore-ui
-# svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
+
 
 
