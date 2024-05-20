@@ -60,7 +60,7 @@ git clone https://github.com/sbwml/package_libs_nghttp3 package/libnghttp3
 # git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush.git package/luci-app-serverchan
+git clone https://github.com/firkerword/luci-app-serverchan.git package/luci-app-serverchan
 # git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 ###
