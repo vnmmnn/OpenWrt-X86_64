@@ -63,6 +63,7 @@ rm -rf ./package/sirpdboy-package/luci-app-autotimeset
 rm -rf ./package/sirpdboy-package/netspeedtest
 rm -rf ./package/sirpdboy-package/luci-theme-kucat
 rm -rf ./package/sirpdboy-package/luci-app-control-timewol
+rm -rf ./package/sirpdboy-package/luci-app-wrtbwmon
 ##
 rm -rf ./package/passwall-packages/v2ray-geodata
 # rm -rf ./package/helloworld/v2ray-geodata
