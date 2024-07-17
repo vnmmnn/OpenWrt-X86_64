@@ -63,9 +63,10 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luc
 git clone https://github.com/firkerword/luci-app-serverchan.git package/luci-app-serverchan
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
 ###
 git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
-git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
+# git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
 git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
