@@ -46,7 +46,7 @@ git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 sed -i 's/luci-lib-ipkg/luci-base/g' package/helloworld/luci-app-ssr-plus/Makefile
 # git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 # git clone https://github.com/xiaorouji/openwrt-passwall-packages package/passwall-packages
-git clone https://github.com/fw876/helloworld.git package/ssr
+# git clone https://github.com/fw876/helloworld.git package/ssr
 # merge_package https://github.com/fw876/helloworld /helloworld/luci-app-ssr-plus
 
 
