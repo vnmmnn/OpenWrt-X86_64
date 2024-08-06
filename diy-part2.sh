@@ -28,7 +28,9 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 ###
 # rm -rf ./feeds/luci/applications/luci-app-qbittorrent
 rm -rf ./feeds/luci/applications/luci-app-serverchan
+rm -rf ./feeds/luci/applications/luci-app-upnp
 rm -rf ./feeds/luci/applications/luci-app-smartdns
+rm -rf ./feeds/luci/applications/luci-app-diskman
 # rm -rf ./feeds/luci/applications/luci-app-aria2
 # rm -rf ./feeds/luci/applications/aria2
 # rm -rf ./feeds/packages/net/miniupnpd
