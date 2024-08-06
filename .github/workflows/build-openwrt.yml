@@ -7,7 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-
+#
 name: Build OpenWrt
 
 on:
@@ -19,7 +19,7 @@ on:
         required: false
         default: 'false'
   schedule:
-    - cron: 0 22 */3 * * 
+    - cron: 0 21 * * 6
    
 
 env:
