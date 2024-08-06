@@ -29,7 +29,6 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 # rm -rf ./feeds/luci/applications/luci-app-qbittorrent
 rm -rf ./feeds/luci/applications/luci-app-serverchan
 rm -rf ./feeds/luci/applications/luci-app-smartdns
-rm -rf ./feeds/luci/applications/luci-app-upnp
 # rm -rf ./feeds/luci/applications/luci-app-aria2
 # rm -rf ./feeds/luci/applications/aria2
 # rm -rf ./feeds/packages/net/miniupnpd
@@ -39,8 +38,8 @@ rm -rf ./feeds/luci/applications/luci-app-mosdns
 rm -rf ./feeds/packages/net/mosdns
 rm -rf ./feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
-# rm -rf ./feeds/packages/net/curl
-# git clone https://github.com/sbwml/feeds_packages_net_curl.git feeds/packages/net/curl
+rm -rf ./feeds/packages/net/curl
+git clone https://github.com/sbwml/feeds_packages_net_curl.git feeds/packages/net/curl
 rm -rf ./feeds/luci/themes/luci-theme-argon
 # rm -rf ./feeds/luci/themes/luci-theme-argon-mod
 rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
