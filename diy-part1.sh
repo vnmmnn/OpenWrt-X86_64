@@ -48,15 +48,13 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # git clone https://github.com/sbwml/package_libs_ngtcp2 package/libngtcp2
 # git clone https://github.com/sbwml/package_libs_nghttp3 package/libnghttp3
 
-# git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
-# git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/firkerword/luci-app-serverchan.git package/luci-app-serverchan
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone  https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
 ###
-git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
+# git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 # git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
@@ -64,12 +62,11 @@ git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-ap
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 # git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
-git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
+git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 
-merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-wrtbwmon-zh
+
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
-merge_package https://github.com/firker/diy-ziyong diy-ziyong/wrtbwmon
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-adguardhome
