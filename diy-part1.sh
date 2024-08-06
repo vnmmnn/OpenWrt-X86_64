@@ -65,6 +65,7 @@ git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 # git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/homebox
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-diskman
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-netspeedtest
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-upnp
@@ -76,7 +77,7 @@ merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-parentcontrol
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
-# merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/adguardhome
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-adguardhome
 # merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/upnpd
