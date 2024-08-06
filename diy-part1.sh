@@ -45,9 +45,10 @@ find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 find ./ | grep Makefile | grep mosdns | xargs rm -f
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-# git clone https://github.com/sbwml/package_libs_ngtcp2 package/libngtcp2
-# git clone https://github.com/sbwml/package_libs_nghttp3 package/libnghttp3
+git clone https://github.com/sbwml/package_libs_ngtcp2 package/libngtcp2
+git clone https://github.com/sbwml/package_libs_nghttp3 package/libnghttp3
 
+git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-serverchan
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
@@ -56,15 +57,23 @@ git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 ###
 # git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 # git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
-git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
-git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
-git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
-git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
+# git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
+# git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
+# git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
+# git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 # git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
-git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
+# git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-diskman
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-netspeedtest
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-upnp
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-theme-kucat
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-advancedplus
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-partexp
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-eqosplus
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-autotimeset
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-parentcontrol
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
@@ -74,7 +83,6 @@ merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/openwrt-bypass/luci-app-bypass/Makefile
-git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 # git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
 # git clone https://github.com/dwj0/luci-app-sms-tool.git package/luci-app-sms-tool
