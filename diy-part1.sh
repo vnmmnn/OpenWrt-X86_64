@@ -48,6 +48,7 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # git clone https://github.com/sbwml/package_libs_ngtcp2 package/libngtcp2
 # git clone https://github.com/sbwml/package_libs_nghttp3 package/libnghttp3
 
+git clone https://github.com/sbwml/openwrt-qBittorrent package/openwrt-qBittorrent
 git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-serverchan
