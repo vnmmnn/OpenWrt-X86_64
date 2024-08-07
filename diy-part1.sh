@@ -51,7 +51,7 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 git clone https://github.com/sbwml/openwrt-qBittorrent package/openwrt-qBittorrent
 git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-serverchan
+git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wechatpush
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
@@ -80,7 +80,7 @@ merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-
 merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-parentcontrol
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
-merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
+# merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/adguardhome
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-adguardhome
 # merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/upnpd
