@@ -38,6 +38,7 @@ rm -rf ./feeds/luci/applications/luci-app-mosdns
 rm -rf ./feeds/packages/net/mosdns
 rm -rf ./feeds/packages/net/alist
 rm -rf ./feeds/luci/applications/luci-app-alist
+rm -rf ./feeds/luci/applications/luci-app-wechatpush
 rm -rf ./feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
 # rm -rf ./feeds/packages/net/curl
