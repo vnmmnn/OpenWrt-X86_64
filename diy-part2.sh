@@ -26,7 +26,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-kucat/g' ./feeds/luci/collections/luci
 ###
 # rm -rf ./feeds/luci/applications/luci-app-qbittorrent
 rm -rf ./feeds/luci/applications/luci-app-serverchan
-rm -rf ./feeds/luci/applications/luci-app-upnp
+# rm -rf ./feeds/luci/applications/luci-app-upnp
 rm -rf ./feeds/luci/applications/luci-app-smartdns
 # rm -rf ./feeds/luci/applications/luci-app-diskman
 # rm -rf ./feeds/luci/applications/luci-app-aria2
