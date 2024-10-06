@@ -58,26 +58,19 @@ git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 ###
 # git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 # git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
-# git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
-# git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
-# git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
-# git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
+git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
+git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
+git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
+git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
+git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
+
 # git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
-# git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
+git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
-git clone https://github.com/sirpdboy/netspeedtest package/luci-app-netspeedtest
 
 merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/adguardhome
 merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/luci-app-adguardhome
-# merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/homebox
-# merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-diskman
-# merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-upnp
-merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-theme-kucat
-merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-advancedplus
-merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-partexp
-merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-eqosplus
-merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-autotimeset
-merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-parentcontrol
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
 # merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
