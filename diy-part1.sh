@@ -69,13 +69,13 @@ git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-auto
 git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 
-merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/adguardhome
-merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/luci-app-adguardhome
+# merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/adguardhome
+# merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/luci-app-adguardhome
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
-# merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-wrtbwmon
-# merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/wrtbwmon
-# merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/adguardhome
-# merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-adguardhome
+# merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-wrtbwmon
+# merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/wrtbwmon
+merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/adguardhome
+merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-adguardhome
 # merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/upnpd
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
