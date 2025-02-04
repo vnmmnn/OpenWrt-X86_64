@@ -34,11 +34,11 @@ rm -rf package/custom; mkdir package/custom
 
 # Add a feed source
 
-git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
-# git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-# git clone https://github.com/xiaorouji/openwrt-passwall-packages package/passwall-packages
+# git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall-packages package/passwall-packages
 # git clone https://github.com/fw876/helloworld.git package/ssr
-# merge_package https://github.com/fw876/helloworld /helloworld/luci-app-ssr-plus
+merge_package https://github.com/fw876/helloworld /helloworld/luci-app-ssr-plus
 
 
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
