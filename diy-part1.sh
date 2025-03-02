@@ -74,7 +74,7 @@ git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-wrtbwmon
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/wrtbwmon
-merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/adguardhome
+# merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/adguardhome
 merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-adguardhome
 # merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/upnpd
 ###
