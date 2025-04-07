@@ -60,7 +60,7 @@ git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 # git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 # git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 # git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
-git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
+# git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
 # git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 # git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
