@@ -45,8 +45,7 @@ find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 find ./ | grep Makefile | grep mosdns | xargs rm -f
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-# git clone https://github.com/sbwml/package_libs_ngtcp2 package/libngtcp2
-# git clone https://github.com/sbwml/package_libs_nghttp3 package/libnghttp3
+
 
 git clone https://github.com/sbwml/openwrt-qBittorrent package/openwrt-qBittorrent
 git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
@@ -55,6 +54,7 @@ git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wec
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
+git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 ###
 # git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 # git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
@@ -62,12 +62,12 @@ git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 # git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
 # git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
 # git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
-git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 # git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
 
 # git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
-git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
-git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
+# git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
+# git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter    
 
 # merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/adguardhome
 # merge_package https://github.com/sirpdboy/sirpdboy-package sirpdboy-package/luci-app-adguardhome
