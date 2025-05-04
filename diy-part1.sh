@@ -66,7 +66,9 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/wrtbwmon
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/adguardhome
 merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-adguardhome
-
+merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/aria2
+merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-aria2
+merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/ariang
 ###
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/openwrt-bypass/luci-app-bypass/Makefile
