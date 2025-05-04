@@ -30,6 +30,7 @@ rm -rf ./feeds/luci/applications/luci-app-smartdns
 # rm -rf ./feeds/luci/applications/luci-app-diskman
 rm -rf ./feeds/luci/applications/luci-app-aria2
 rm -rf ./feeds/luci/applications/aria2
+rm -rf ./feeds/luci/applications/ariang
 # rm -rf ./feeds/packages/net/miniupnpd
 # rm -rf ./feeds/packages/net/adguardhome
 rm -rf ./feeds/packages/net/smartdns
