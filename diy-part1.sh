@@ -58,8 +58,8 @@ git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 ###
 
 # git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
-# git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter    
+git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
+# git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter    
 
 # merge_package https://github.com/firker/diy-ziyong diy-ziyong/luci-app-onliner
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-wrtbwmon
