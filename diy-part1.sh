@@ -56,6 +56,7 @@ git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wec
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/timsaya/luci-app-bandix package/luci-app-bandix
+git clone https://github.com/timsaya/openwrt-bandix package/openwrt-bandix
 ###
 
 # git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
