@@ -43,7 +43,7 @@ git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/l
 # rm -rf ./feeds/packages/net/curl
 # git clone https://github.com/sbwml/feeds_packages_net_curl.git feeds/packages/net/curl
 rm -rf ./feeds/luci/themes/luci-theme-argon
-rm -rf ./feeds/luci/themes/luci-app-argon-config
+rm -rf ./feeds/luci/applicationsluci-app-argon-config
 # rm -rf ./feeds/luci/themes/luci-theme-argon-mod
 rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 rm -rf ./feeds/luci/applications/luci-app-passwall
