@@ -37,8 +37,7 @@ git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 # merge_package https://github.com/fw876/helloworld /helloworld/luci-app-ssr-plus
 
 
-find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
-find ./ | grep Makefile | grep mosdns | xargs rm -f
+
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
