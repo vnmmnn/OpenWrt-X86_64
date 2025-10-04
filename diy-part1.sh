@@ -58,6 +58,7 @@ git clone https://github.com/timsaya/openwrt-bandix package/openwrt-bandix
 
 git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone -b js https://github.com/sirpdboy/luci-app-adguardhome package/luci-app-adguardhome
+chmod +x ./package/luci-app-adguardhome/luci-app-adguardhome/root/usr/libexec/rpcd/luci.adguardhome
 git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter    
