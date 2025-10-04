@@ -53,7 +53,7 @@ git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/timsaya/luci-app-bandix package/luci-app-bandix
 git clone https://github.com/timsaya/openwrt-bandix package/openwrt-bandix
-git clone https://github.com/stevenjoezhang/luci-app-adguardhome package/luci-app-adguardhome
+# git clone https://github.com/stevenjoezhang/luci-app-adguardhome package/luci-app-adguardhome
 ###
 
 git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
@@ -65,7 +65,7 @@ git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-wrtbwmon
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/wrtbwmon
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/adguardhome
-# merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-adguardhome
+merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-adguardhome
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/aria2
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-aria2
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/ariang
