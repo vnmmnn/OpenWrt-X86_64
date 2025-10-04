@@ -41,7 +41,8 @@ git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
-
+git clone https://github.com/hudra0/qosmate package/qosmate
+git clone https://github.com/hudra0/luci-app-qosmate/ package/luci-app-qosmate
 git clone https://github.com/sbwml/openwrt-qBittorrent package/openwrt-qBittorrent
 git clone https://github.com/sbwml/luci-app-openlist2 package/openlist
 # git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
