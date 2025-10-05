@@ -30,37 +30,37 @@ rm -rf package/custom; mkdir package/custom
 
 # Add a feed source
 
-git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
+git clone https://github.com/sbwml/openwrt_helloworld.git package/helloworld
 # git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-# git clone https://github.com/xiaorouji/openwrt-passwall-packages package/passwall-packages
+# git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall-packages
 # git clone https://github.com/fw876/helloworld.git package/ssr
-# merge_package https://github.com/fw876/helloworld /helloworld/luci-app-ssr-plus
+# merge_package https://github.com/fw876/helloworld.git /helloworld/luci-app-ssr-plus
 
 
 
-git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+git clone https://github.com/sbwml/luci-app-mosdns.git -b v5 package/mosdns
+git clone https://github.com/sbwml/v2ray-geodata.git package/v2ray-geodata
 
-git clone https://github.com/hudra0/qosmate package/qosmate
-git clone https://github.com/hudra0/luci-app-qosmate/ package/luci-app-qosmate
-git clone https://github.com/sbwml/openwrt-qBittorrent package/openwrt-qBittorrent
-git clone https://github.com/sbwml/luci-app-openlist2 package/openlist
+git clone https://github.com/hudra0/qosmate.git package/qosmate
+git clone https://github.com/hudra0/luci-app-qosmate.git/ package/luci-app-qosmate
+git clone https://github.com/sbwml/openwrt-qBittorrent.git package/openwrt-qBittorrent
+git clone https://github.com/sbwml/luci-app-openlist2.git package/openlist
 # git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-# git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+# git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wechatpush
 # git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
-# git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+# git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
-git clone https://github.com/timsaya/luci-app-bandix package/luci-app-bandix
-git clone https://github.com/timsaya/openwrt-bandix package/openwrt-bandix
-# git clone https://github.com/stevenjoezhang/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/timsaya/luci-app-bandix.git package/luci-app-bandix
+git clone https://github.com/timsaya/openwrt-bandix.git package/openwrt-bandix
+# git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/luci-app-adguardhome
 ###
 
-git clone -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
-# git clone -b js https://github.com/sirpdboy/luci-app-adguardhome package/luci-app-adguardhome
+git clone -b js https://github.com/sirpdboy/luci-theme-kucat.git package/luci-theme-kucat
+# git clone -b js https://github.com/sirpdboy/luci-app-adguardhome.git package/luci-app-adguardhome
 # chmod +x ./package/luci-app-adguardhome/luci-app-adguardhome/root/usr/libexec/rpcd/luci.adguardhome
-git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus
+git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter    
 
