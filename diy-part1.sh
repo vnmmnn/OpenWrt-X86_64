@@ -47,7 +47,7 @@ git clone https://github.com/sbwml/openwrt-qBittorrent.git package/openwrt-qBitt
 git clone https://github.com/sbwml/luci-app-openlist2.git package/openlist
 # git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 # git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
-git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wechatpush
+# git clone https://github.com/tty228/luci-app-wechatpush.git package/luci-app-wechatpush
 # git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
