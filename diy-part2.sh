@@ -43,9 +43,7 @@ rm -rf ./feeds/packages/libs/utils/qt6tools
 rm -rf ./feeds/packages/net/open-app-filter/
 rm -rf ./feeds/luci/applications/luci-app-openlist/
 rm -rf ./feeds/packages/net/openlist/
-##
-rm -rf ./package/kernel/r8168
-git clone --branch 8.054.00 https://github.com/sbwml/package_kernel_r8168.git /package/kernel/r8168
+
 ##
 
 ##
