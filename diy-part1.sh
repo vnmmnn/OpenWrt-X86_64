@@ -58,6 +58,7 @@ git clone https://github.com/timsaya/openwrt-bandix.git package/openwrt-bandix
 ###
 
 git clone https://github.com/sirpdboy/luci-theme-kucat.git package/luci-theme-kucat
+git clone https://github.com/sirpdboy/luci-app-kucat-config.git package/luci-app-kucat-config
 # git clone -b js https://github.com/sirpdboy/luci-app-adguardhome.git package/luci-app-adguardhome
 # chmod +x ./package/luci-app-adguardhome/luci-app-adguardhome/root/usr/libexec/rpcd/luci.adguardhome
 git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
