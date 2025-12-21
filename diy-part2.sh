@@ -34,7 +34,7 @@ rm -rf ./feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
 rm -rf ./feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 rm -rf ./feeds/luci/applications/luci-app-passwall
-rm -rf ./feeds/luci/applications/luci-app-homeproxy
+# rm -rf ./feeds/luci/applications/luci-app-homeproxy
 rm -rf ./feeds/luci/applications/luci-app-ssr-plus
 rm -rf ./feeds/packages/net/qBittorrent-Enhanced-Edition
 rm -rf ./feeds/luci/applications/luci-app-qbittorrent
