@@ -59,8 +59,7 @@ git clone https://github.com/timsaya/openwrt-bandix.git package/openwrt-bandix
 
 git clone https://github.com/sirpdboy/luci-theme-kucat.git package/luci-theme-kucat
 git clone https://github.com/sirpdboy/luci-app-kucat-config.git package/luci-app-kucat-config
-# git clone -b js https://github.com/sirpdboy/luci-app-adguardhome.git package/luci-app-adguardhome
-# chmod +x ./package/luci-app-adguardhome/luci-app-adguardhome/root/usr/libexec/rpcd/luci.adguardhome
+git clone https://github.com/sirpdboy/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
 git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter    
@@ -69,7 +68,7 @@ git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-wrtbwmon
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/wrtbwmon
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/adguardhome
-merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-adguardhome
+# merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-adguardhome
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/aria2
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/luci-app-aria2
 # merge_package https://github.com/kiddin9/kwrt-packages kwrt-packages/ariang
