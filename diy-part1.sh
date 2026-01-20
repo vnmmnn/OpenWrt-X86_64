@@ -31,8 +31,8 @@ rm -rf package/custom; mkdir package/custom
 # Add a feed source
 
 # git clone https://github.com/sbwml/openwrt_helloworld.git package/helloworld
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall-packages
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall package/passwall-luci
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/passwall-packages
 # git clone https://github.com/fw876/helloworld.git package/ssr
 # merge_package https://github.com/fw876/helloworld.git /helloworld/luci-app-ssr-plus
 
